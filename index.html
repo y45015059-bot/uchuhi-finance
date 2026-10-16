@@ -42,5 +42,61 @@ footer{padding:25px;color:#8192b8;font-size:12px}
 </section>
 <footer>© 宇宙飛融資</footer>
 </body>
+<section style="max-width:480px;margin:30px auto;padding:20px;border:1px solid #ddd;border-radius:12px;font-family:sans-serif;">
+  <h2>お問い合わせフォーム</h2>
+  <p>必要事項を入力してください。</p>
+
+  <form>
+    <label>🐅 名前（漢字）</label>
+    <input type="text" name="name" autocomplete="name" required style="display:block;width:100%;padding:12px;margin:8px 0 16px;box-sizing:border-box;">
+
+    <label>🐅 フリガナ</label>
+    <input type="text" name="furigana" required style="display:block;width:100%;padding:12px;margin:8px 0 16px;box-sizing:border-box;">
+
+    <label>🐅 生年月日（昭和・平成など）</label>
+    <input type="text" name="birthdate" placeholder="例：平成○年○月○日" required style="display:block;width:100%;padding:12px;margin:8px 0 16px;box-sizing:border-box;">
+
+    <label>🐅 住所</label>
+    <input type="text" name="address" autocomplete="street-address" required style="display:block;width:100%;padding:12px;margin:8px 0 16px;box-sizing:border-box;">
+
+    <label>🐅 本人電話番号</label>
+    <input type="tel" name="phone" autocomplete="tel" required style="display:block;width:100%;padding:12px;margin:8px 0 16px;box-sizing:border-box;">
+
+    <label>👑 勤め先</label>
+    <input type="text" name="employer" style="display:block;width:100%;padding:12px;margin:8px 0 16px;box-sizing:border-box;">
+
+    <label>👑 副業</label>
+    <input type="text" name="sidejob" style="display:block;width:100%;padding:12px;margin:8px 0 16px;box-sizing:border-box;">
+
+    <label>👑 勤め先の電話番号</label>
+    <input type="tel" name="workphone" style="display:block;width:100%;padding:12px;margin:8px 0 16px;box-sizing:border-box;">
+
+    <label>💸 給料日</label>
+    <input type="text" name="payday" placeholder="例：毎月25日" style="display:block;width:100%;padding:12px;margin:8px 0 16px;box-sizing:border-box;">
+
+    <label>💸 手取り額</label>
+    <input type="text" name="income" placeholder="例：月○万円" style="display:block;width:100%;padding:12px;margin:8px 0 16px;box-sizing:border-box;">
+
+    <label>💸 他社借入</label>
+    <select name="otherloans" style="display:block;width:100%;padding:12px;margin:8px 0 16px;box-sizing:border-box;">
+      <option value="">選択してください</option>
+      <option>なし</option>
+      <option>あり</option>
+    </select>
+
+    <label>過去トラブルや遅れはありますか？</label>
+    <select name="pastissues" style="display:block;width:100%;padding:12px;margin:8px 0 16px;box-sizing:border-box;">
+      <option value="">選択してください</option>
+      <option>なし</option>
+      <option>あり</option>
+      <option>回答を控える</option>
+    </select>
+
+    <button type="button" style="width:100%;padding:14px;background:#2563eb;color:white;border:0;border-radius:8px;">入力内容を確認</button>
+  </form>
+</section>
+
+
+
 </html>
 
